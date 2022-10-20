@@ -1,0 +1,85 @@
+.athletes {
+    .wrapper {
+        margin: 4rem auto;
+    }
+}
+.grilleAthletes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+
+    .cardAthlete {
+        position: relative;
+    }
+    .cardAthlete-square {
+        grid-row: span 2;
+    }
+    .cardAthlete-long {
+        grid-column: span 2;
+    }
+    .hoverCacher {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        color: white;
+        background: rgba($color: #000000, $alpha: 0.25);
+        width: 100%;
+        height: 100%;
+        .smallH2 {
+            font-size: var(--font-size-h2-sm);
+        }
+        h2 {
+            font-family: var(--font-h2);
+            align-self: center;
+            width: 20%;
+        }
+    }
+    .cardAthlete:hover {
+        .hoverCacher {
+            display: flex;
+        }
+    }
+    .wrapper_hover {
+        padding: 0.5rem 1rem;
+        position: absolute;
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .icon {
+        width: 25%;
+        height: 25%;
+        margin: 0;
+    }
+    .image {
+        position: relative;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and(max-width:1024px) {
+    .grilleAthletes {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        height: 100%;
+        width: 100%;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}

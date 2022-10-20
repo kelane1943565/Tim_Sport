@@ -1,0 +1,62 @@
+.hero {
+    .wrapper {
+        position: relative;
+        padding: 0;
+    }
+    img {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    .hero-titre-btn {
+        padding-top: 5.75rem;
+        width: 40%;
+        color: var(--color-primary);
+        margin-left: 10.3125rem;
+        h1 {
+            margin: 1.875rem 3.75rem 1.875rem 0;
+            font-weight: 400;
+        }
+        a {
+            width: 50%;
+            border: 5px var(--color-primary) solid;
+            border-radius: 50px;
+            padding: 1rem 4rem 1rem 2rem;
+            transition: all 0.3s ease-out;
+            transform: translate(-50%, -50%);
+        }
+        a:hover {
+            transform: scale(0.9);
+            background-color: #f2545b;
+            color: var(--color-white);
+            padding: 0.5rem 1.5rem;
+        }
+    }
+    .wrapper-p {
+        background-color: rgba($color: #f2545b, $alpha: 0.6);
+    }
+    p {
+        width: 40%;
+        margin-left: 10.3125rem;
+        margin-top: 10.3125rem;
+        padding: 2rem;
+        color: var(--color-white);
+    }
+
+    @media screen and(max-width:1420px) {
+        .grid-sport {
+            grid-template-columns: 1;
+        }
+        h1 {
+            font-size: var(--font-size-2);
+        }
+    }
+
+    @media screen and(max-width:750px) {
+        p {
+            width: 100%;
+            margin: auto;
+        }
+    }
+}

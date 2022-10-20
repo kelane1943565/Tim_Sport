@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TimSport</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="stylesheet" href="styles/main.css" />
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="wrapper">
+                <a class="logo">
+                    <img src="assets/images/logo.svg" alt="logo tim canada" />
+                </a>
+                <div class="menu-secondaire">
+                    <ul>
+                        <li><a href="#">Athlètes</a></li>
+                        <li><a href="#">Disciplines</a></li>
+                        <li><a href="#">Programmes</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="recherche">
+                        <a href="">
+                            <svg class="icon">
+                                <use xlink:href="#icon-icons-loupe"></use>
+                            </svg>
+                        </a>
+                        <a href="#">Aidez-nous</a>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <svg class="icon">
+                        <use xlink:href="#icon-hamburger"></use>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="wrapper">
+                <div class="hero-titre-btn">
+                    <h1>La <strong>crème</strong> de la crème</h1>
+                    <a href="#">Joignez notre équipe</a>
+                </div>
+                <div class="wrapper-p">
+                    <p>
+                        Votre rêve de p’tit cul est sur le point de se réaliser. Vous avez toujours rêvé de performer
+                        autant sur les internets que sur une surface glacée. Saississez votre chance dès aujourd’hui et
+                        joignez l’équipe de timCanada afin de vous dépasser dans un environement sécurisé et serein.
+                    </p>
+                </div>
+                <img src="assets/images/bg-hero.jpg" alt="background hero" />
+            </div>
+        </section>
+        <section class="selonMeteo">
+            <div class="wrapper">
+                <div class="titre">
+                    <h2>Les sports selon la météo</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie nec diam at
+                        scelerisque. Quisque sodales magna quis purus pharetra dignissim. Donec lectus nulla, vestibulum
+                        eget purus ac, tincidunt tempus arcu.
+                    </p>
+                </div>
+
+                <div class="grid-sport">
+                    <div class="card">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-orage"></use>
+                        </svg>
+
+                        <h3>SAUT À LA PERCHE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card card-large">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-flocon"></use>
+                        </svg>
+                        <h3>SAUT EN SKI</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
+                    <div class="card card-long">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-pluie"></use>
+                        </svg>
+                        <h3>ULTIMATE FRISBEE</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie nec diam at
+                            scelerisque. Quisque sodales magna quis purus pharetra dignissim. Donec lectus nulla,
+                            vestibulum eget purus ac, tincidunt tempus arcu.
+                        </p>
+                        <a href="#">Inscription</a>
+                    </div>
+                    <div class="card">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-soleil"></use>
+                        </svg>
+                        <h3>Bédaine Chaude</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-lune"></use>
+                        </svg>
+                        <h3>Lasertag</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-soleil"></use>
+                        </svg>
+                        <h3>Coup de soleil</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <svg class="icon">
+                            <use xlink:href="#icon-icons-lune"></use>
+                        </svg>
+                        <h3>Dormir</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionCaroussel">
+            <div class="wrapper">
+                <h2>Sports en image</h2>
+                <div class="swiper-container" data-component="Carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/images/skieur.jpg" alt="" /></div>
+                        <div class="swiper-slide"><img src="assets/images/patineuse.jpg" alt="" /></div>
+                        <div class="swiper-slide"><img src="assets/images/snowboard.jpg" alt="" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="athletes">
+            <div class="wrapper">
+                <div class="titre">
+                    <h2>Nos Athlètes</h2>
+                    <p>
+                        Nos athlètes sont sélectionnés parmi les meilleurs de leur génération. Sans aucun ajout
+                        d’hormones de croissances (à l’exception des Doritos), ils perfoment toujours à leur maximum.
+                    </p>
+                </div>
+                <div class="grilleAthletes">
+                    <a class="cardAthlete cardAthlete-square">
+                        <div class="image">
+                            <img src="assets/images/mathieu.jpg" alt="" />
+                        </div>
+                        <div class="hoverCacher">
+                            <div class="wrapper_hover">
+                                <h2>Matt Pratt</h2>
+                                <svg class="icon">
+                                    <use xlink:href="#icon-icons-snowboard"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="cardAthlete">
+                        <div class="image">
+                            <img src="assets/images/benoit.jpg" alt="" />
+                        </div>
+
+                        <div class="hoverCacher">
+                            <div class="wrapper_hover">
+                                <h2 class="smallH2">Benny La Vigne</h2>
+                                <svg class="icon">
+                                    <use xlink:href="#icon-icons-patin"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="cardAthlete">
+                        <div class="image">
+                            <img src="assets/images/jf.jpg" alt="" />
+                        </div>
+                        <div class="hoverCacher">
+                            <div class="wrapper_hover">
+                                <h2 class="smallH2">Jeff White</h2>
+                                <svg class="icon">
+                                    <use xlink:href="#icon-icons-ski"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="cardAthlete cardAthlete-long">
+                        <div class="image">
+                            <img src="assets/images/pierre.jpg" alt="" />
+                        </div>
+                        <div class="hoverCacher">
+                            <div class="wrapper_hover">
+                                <h2>Pierre Kiroule</h2>
+                                <svg class="icon">
+                                    <use xlink:href="#icon-icons-curling"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <a class="logo">
+                    <img src="assets/images/logo.svg" alt="" />
+                </a>
+                <div class="ligne"></div>
+                <div class="reseau">
+                    <a href="#">
+                        <div class="icons">
+                            <svg class="icon bg-icon-insta">
+                                <use xlink:href="#icon-icons-insta"></use>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icons bg-icon-dribbble">
+                            <svg class="icon">
+                                <use xlink:href="#icon-icons-dribbble"></use>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icons bg-icon-twitter">
+                            <svg class="icon">
+                                <use xlink:href="#icon-icons-twitter"></use>
+                            </svg></div
+                    ></a>
+                    <a href="#">
+                        <div class="icons bg-icon-yt">
+                            <svg class="icon">
+                                <use xlink:href="#icon-icons-yt"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <p>Tous droits réservés © 2022 tim canada.</p>
+            </div>
+        </footer>
+        <div class="cursor" data-component="Cursor"></div>
+    </body>
+</html>

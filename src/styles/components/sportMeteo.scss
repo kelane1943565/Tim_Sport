@@ -1,0 +1,71 @@
+.selonMeteo .wrapper {
+    padding: 10.3125rem;
+    .grid-sport {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        text-align: center;
+        gap: 1.5rem;
+        color: white;
+    }
+    .card {
+        background-color: var(--color-primary);
+        padding: 1.25rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease-out;
+    }
+    .card:hover {
+        transform: scale(1.1);
+        margin: 0 0.5rem;
+    }
+
+    .icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .card-large {
+        grid-column: span 2;
+    }
+    .card-long {
+        grid-template-columns: 1 / span 2;
+        grid-row: 2 / span 3;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        color: white;
+        border: 4px white solid;
+        border-radius: 3rem;
+        padding: 0.5rem 2rem;
+        margin-top: auto;
+        transition: all 0.3s ease-out;
+    }
+    a:hover {
+        background-color: var(--color-bg-primary);
+        color: var(--color-black);
+        padding: 0.5rem 1.5rem;
+    }
+}
+.titre {
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    p {
+        width: 50%;
+    }
+}
+@media screen and(max-width:1024px) {
+    .selonMeteo .wrapper {
+        p {
+            width: 100%;
+        }
+        padding: 5rem;
+        .grid-sport {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

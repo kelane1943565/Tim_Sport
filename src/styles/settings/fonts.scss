@@ -1,0 +1,23 @@
+/* ==========================================================================
+   FONTS / SETTINGS
+   ========================================================================== */
+/// Font family
+:root {
+    --font-h1: 'Nunito', sans-serif;
+    --font-h1-bold: 'Nunito', sans-serif;
+    --font-h2: 'Nunito', sans-serif;
+    --font-h3: 'PT Sans', sans-serif;
+    --font-nav: 'Open Sans', sans-serif;
+    --font-p: 'PT Sans', sans-serif;
+    --font-btn: 'Nunito', sans-serif;
+
+    --font-size-content: 1.1rem;
+
+    /// Grosseur des textes
+    --font-size-h1: 6.25rem;
+    --font-size-h2: 3.125rem;
+    --font-size-h2-sm: 2.1875rem;
+    --font-size-h3: 1.375rem;
+    --font-size-p: 1.125rem;
+    --font-size-nav: 0.875rem;
+}
